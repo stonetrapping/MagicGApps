@@ -31,7 +31,7 @@ CHANGELOG
 
 2017.6.22
 
-* Updated apps/files
+* Updated APKs/files
 
 
 2017.6.12
