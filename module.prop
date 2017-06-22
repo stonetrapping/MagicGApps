@@ -1,7 +1,7 @@
 id=MagicGApps
 name=MagicGApps
-version=7.1.x-2017.6.12
-versionCode=2017612
+version=7.1.x-2017.6.22
+versionCode=2017622
 author=VR25
 description=GApps with magic features. Refer to the README.md file for info.
 template=3
