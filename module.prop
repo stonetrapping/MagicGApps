@@ -1,7 +1,7 @@
 id=MagicGApps
-name=MagicGApps
-version=7.1.x-2017.6.22
-versionCode=2017622
+name=Magic GApps 7.1.x
+version=7.1.x-2017.7.25
+versionCode=2017725
 author=VR25 @xdadevelopers
-description=GApps with magic features. Refer to the README.md file for info.
-template=3
+description=Limited system space? Love to try different things? Want to trigger a nuclear disaster? Look no further! Includes battery and cellular data saving patches.
+template=4
