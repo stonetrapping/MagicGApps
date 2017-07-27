@@ -50,4 +50,5 @@ The Flash, BeansTown106, Surge1223, BaNkS, otonieru & others
 
 ***
 XDA Thread: https://forum.xda-developers.com/apps/magisk/module-systemless-beansgapps-mini-7-1-x-t3611362
+
 GitHub Repo: https://github.com/Magisk-Modules-Repo/MagicGApps
