@@ -47,10 +47,10 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "******************"
-  ui_print " MagicGApps 7.1.x "
-  ui_print "VR25 @xddevelopers"
-  ui_print "******************"
+  ui_print "*******************"
+  ui_print " Magic GApps 7.1.x "
+  ui_print "VR25 @xdadevelopers"
+  ui_print "*******************"
 }
 
 ##########################################################################################
