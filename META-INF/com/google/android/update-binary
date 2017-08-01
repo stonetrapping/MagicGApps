@@ -135,17 +135,33 @@ mkdir -p $MODPATH
 # Copy files
 ui_print "- Copying files"
 mv $INSTALLER/system $MODPATH/system
+mv -f $INSTALLER/README.md $MODPATH/README.md
+mv -f $INSTALLER/changelog.txt $MODPATH/changelog.txt
 
+# Disable conflicting apps
+list_apps="
+/system/app/BrowserProviderProxy
+/system/app/PartnerBookmarksProvider
+/system/app/Provision
+/system/app/QuickSearchBox
+/system/priv-app/BrowserProviderProxy
+/system/priv-app/PartnerBookmarksProvider
+/system/priv-app/Provision
+/system/priv-app/QuickSearchBox
+/system/priv-app/LineageSetupWizard
+/system/priv-app/XPerienceSetupWizard
+"
+for folder in $list_apps; do
+	if [ -d $folder ]; then mktouch $MODPATH$folder/.replace; fi
+done
+
+# Install architecture specific GMS
 if [ "$ARCH" = "arm" ]; then
   GMS=$INSTALLER/gms/arm.apk
 elif [ "$ARCH" = "arm64" ]; then
   GMS=$INSTALLER/gms/arm64.apk
 fi
-
-mkdir -p $MODPATH/system/priv-app/PrebuiltGmsCore 2>/dev/null
-
-mv $INSTALLER/changelog.txt $MODPATH/changelog.txt
-mv $INSTALLER/README.md $MODPATH/README.md
+mkdir -p $MODPATH/system/priv-app/PrebuiltGmsCore
 mv $GMS $MODPATH/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
 ##########################################################################################VR25
 
