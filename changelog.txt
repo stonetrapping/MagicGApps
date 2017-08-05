@@ -1,0 +1,74 @@
+2017.7.29
+
+* Under-the-hood optimizations
+
+* Added Google App, Google TTS + off-line voice data
+
+* Added Face Unlock and legacy LatinIME swype libs
+
+* Updated documentation
+
+
+2017.7.25
+
+* Updated to template v4
+
+* Added default permissions
+
+
+2017.6.22
+
+* Updated APKs/files
+
+
+2017.6.12
+
+* Fixed Google Play Services FC that prevented Google account sign in
+
+* Updated scripts
+
+
+2017.6.4
+
+* Added more battery & data saving patches
+
+* Bug fixes
+
+
+2017.6.2
+
+* Reverted configuration files suspected to cause GMS random crashes
+
+* Updated APKs
+
+
+2017.6.1
+
+* Added ARM64 support
+
+
+2017.5.31
+
+* Package striped down and optimized as much as possible (check main post for more info)
+
+
+2017.5.26
+
+* Changed module name 
+
+* Updated scripts 
+
+* Optimized version number 
+
+* Optimized zip file
+
+* Improved compatibility 
+
+* Replaced Pixel Launcher by Nova Launcher 
+
+* Added source code to GitHub
+
+
+2017.5.9
+
+* Initial release
